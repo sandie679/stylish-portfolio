@@ -320,19 +320,12 @@ h5 {
 }
 
 .content {
-  background-color: #fff;
-  width: 100%;
-  height: 400px;
-}
-
-.map {
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
   height: 500px;
-  background-image: url(img/map.png);
-  background-size: cover;
-  background-position: top;
+}
+.content iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .deve {
@@ -569,5 +562,13 @@ h5 {
     display: flex;
     justify-self: center;
     text-align: center;
+  }
+  .content {
+    width: 100%;
+    height: 500px;
+  }
+  .content iframe {
+    width: 100%;
+    height: 100%;
   }
 }/*# sourceMappingURL=index.css.map */
